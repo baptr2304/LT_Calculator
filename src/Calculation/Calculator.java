@@ -409,6 +409,12 @@ public class Calculator extends javax.swing.JFrame {
             answer = String.format("%.0f",result);
             jtxtDisplay.setText(answer);
         }
+        else if(operations == "/")
+        {
+            result = firstnum / secondnum;
+            answer = String.format("%.0f",result);
+            jtxtDisplay.setText(answer);
+        }
         else if(operations == "%")
         {
             result = firstnum % secondnum;
